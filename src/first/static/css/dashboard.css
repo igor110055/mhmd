@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "iran Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("Sans/FontsFree-Net-ir_sans.ttf") format("woff2");
+}
+
+/****************************************************************************
+ ********************************** font**********************************
+ ****************************************************************************/
+
+
+body {
+ 
+  font-family: 'iran Sans';
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+}
+.btn {
+  color: white !important;
+  font-size:0.95rem;
+  
+}
+.h5 {
+  margin-top: 10px;
+}
+
+/****************************************************************************
+ ********************************** body**********************************
+ ****************************************************************************/
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  /* rtl:raw:
+  right: 0;
+  */
+  bottom: 0;
+  /* rtl:remove */
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+#table-head thead{
+  background-color:  rgb(93, 178, 255) !important;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+#table5 .btn-5 {
+  background-color: #53a93f;
+  margin-top: 9px !important;
+  direction: rtl;
+  display: flex;
+  justify-content: reverse;
+}
+#table5 .btn:hover {
+  background-color: #53a93f;
+
+}
+#main-chart{
+ font-size: medium;
+
+}
+
+#main-header {
+  background-color: #024158;
+}
+
+.table{
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+
+#main-header .btn:hover{
+background-color: #375e80;
+
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+}
+
+/****************************************************************************
+ ********************************** navbar**********************************
+ ****************************************************************************/
+
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: 0.75rem 1rem;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+#nav-tab 
+{
+  background-color:  #024158;
+  color: white;
+  padding: 15px;
+
+}
+
+#nav-tab  li{
+  border: 0;
+  
+  color: white;
+}
+
+
+#nav-tab li a:hover{
+  background-color: #375e80;
+}
+
+#nav-tab  li a{
+  background-color: #024158;
+  color: white;
+  margin: 0 5px;
+  border: 0;
+  border-radius: 10px;
+}
+#nav-item2 li a{
+background-color: #53a93f;
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+#btn-2{
+  background-color:  rgb(93, 178, 255);
+}
+/****************************************************/
+
+.panel-header33 h6{
+  margin-top: 0 !important;
+}
+.panel-header{
+  border: 1px solid rgb(185, 176, 176);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.top-panel{
+  background-color: #e6efef;
+  border-bottom: 1px solid rgb(185, 176, 176);
+}
+
+#panel-header2  .span-field span{
+  width: 50px;
+  display: inline-block;
+}
+#table22 table thead{
+  background-color: #024158;
+  color: white;
+  margin: 0 5px;
+  border: 0;
+}
+#inputPassword4{
+  width: 158px;
+}
